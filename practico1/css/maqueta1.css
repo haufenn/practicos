@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+    background-color: rgb(199, 195, 195);
+}
+
+header {
+    background-color: #333;
+    width: 100%;
+    padding:  10px;
+    
+}
+
+section {
+    background-color: aqua;
+    width: 100px;
+    padding: 15px ;
+    display: inline-block;
+}
+#banner {
+    background-color: rgb(255, 0, 0);
+    width: 55%;
+   
+}
+#logo {
+    background-color: turquoise;
+    width: 25%;
+   
+}
+
+#login {
+    background-color: rgb(222, 191, 68);
+    width: 10%;
+}
+nav {
+    background: #000;
+    padding: 15px;
+}
+.menu {
+    background: #333;
+    width: 100%;
+    padding: 10px;
+}

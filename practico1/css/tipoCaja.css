@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+}
+.txt {
+    background-color: gray;
+    height: 30px;
+    width: 300px;
+  
+    margin-top: 20px;
+}
+
+.enlace {
+    background-color: yellow;
+    height: 30px;
+    width: 100px;
+         
+}
