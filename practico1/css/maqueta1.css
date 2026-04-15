@@ -10,37 +10,37 @@ body {
 header {
     background-color: #333;
     width: 100%;
-    padding:  10px;
+    padding:10px;
+    display: flex;
     
 }
 
 section {
-    background-color: aqua;
-    width: 100px;
-    padding: 15px ;
-    display: inline-block;
+    padding: 15px;
 }
+
 #banner {
-    background-color: rgb(255, 0, 0);
+    background-color: red;
     width: 55%;
-   
 }
+
 #logo {
     background-color: turquoise;
     width: 25%;
-   
 }
 
 #login {
     background-color: rgb(222, 191, 68);
-    width: 10%;
+    width: 20%;
 }
 nav {
     background: #000;
-    padding: 15px;
+    display: flex;
+    gap: 10px;
 }
 .menu {
     background: #333;
     width: 100%;
     padding: 10px;
+    gap: 20px;
 }
