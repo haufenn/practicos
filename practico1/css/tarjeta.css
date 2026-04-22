@@ -1,23 +1,40 @@
+body {
+    background: #dcdcdc;
+    text-align: center;
+}
 
 .card {
-    width: 32%;
-    background: rgb(23, 28, 80);
-    padding: 6px;
-    margin: 2px;
+    width: 30%;
+    background: #1f2235;
+    padding: 10px;
+    margin: 15px;
     display: inline-block;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
+    border-radius: 10px;
+    vertical-align: top;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid #00e6b8;
 }
+
 .card:hover {
-    transform: scale(1.01);
+    transform: scale(1.03);
+    box-shadow: 0 0 15px #00e6b8;
 }
+
 .card img {
     width: 100%;
-    border-radius: 5px;
+    height: 33%;
+    object-fit: cover;
+    border-radius: 8px;
 }
+
 .card h2 {
     margin: 10px 0;
+    color: #00e6b8;
+    text-align: left;
 }
+
 .card p {
-    color: rgb(159, 133, 211);
+    color: #bfbfbf;
+    text-align: left;
+    font-size: 14px;
 }

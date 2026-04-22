@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box; 
 }
+
 body {
     background-color: rgb(199, 195, 195);
 }
@@ -10,37 +11,48 @@ body {
 header {
     background-color: #333;
     width: 100%;
-    padding:10px;
+    padding: 10px;
+
     display: flex;
-    
+    gap: 15px; 
 }
 
-section {
-    padding: 15px;
+header section {
+    height: 60px;
 }
 
 #banner {
-    background-color: red;
+    background-color: #f56565;
     width: 55%;
 }
 
 #logo {
-    background-color: turquoise;
-    width: 25%;
+    background-color: #4fd1c5;
+    width:25%;
 }
 
 #login {
-    background-color: rgb(222, 191, 68);
-    width: 20%;
+    background-color: #ecc94b;
+    width:20%;
 }
+
 nav {
-    background: #000;
+    background: #1a1a1a;
+    padding: 10px;
     display: flex;
+    justify-content: center;
     gap: 10px;
 }
+
 .menu {
     background: #333;
-    width: 100%;
-    padding: 10px;
-    gap: 20px;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    height: 80px;
+    margin-top: 40%;
 }
